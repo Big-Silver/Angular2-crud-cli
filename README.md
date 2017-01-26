@@ -1,13 +1,24 @@
-# TodoApp
+# Angular-CRUD
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.26.
 
+## Quick Start
+- npm install
+- npm start
+
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Test your changes running: ng serve ---port 9000
 
-## Code scaffolding
+## Create class, Component, directive, module, service
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+- ng generate class my-new-class: add a class to your application
+- ng generate component my-new-component: add a component to your application
+- ng generate directive my-new-directive: add a directive to your application
+- ng generate enum my-new-enum: add an enum to your application
+- ng generate module my-new-module: add a module to your application
+- ng generate pipe my-new-pipe: add a pipe to your application
+- ng generate service my-new-service: add a service to your application
 
 ## Build
 
